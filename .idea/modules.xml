@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/entitylisttest.iml" filepath="$PROJECT_DIR$/.idea/entitylisttest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/entitylisttest-common.iml" filepath="$PROJECT_DIR$/common/entitylisttest-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javase/entitylisttest-javase.iml" filepath="$PROJECT_DIR$/javase/entitylisttest-javase.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<border xsi:noNamespaceSchemaLocation="StartPage.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title>Entity List Sample</title>
+    <import>
+        import com.example.myapp.models.UserProfile;
+    </import>
+    <define-category name="ROW_CLICKED" />
+    <entityList layout-constraint="center"
+                provider="com.example.myapp.providers.SampleListProvider.class"
+
+    >
+        <row-template>
+            <y rad-leadComponent="ClickMeButton">
+                <radLabel tag="UserProfile.name"/>
+                <button uiid="ClickMeButton" hidden="true">
+                        <bind-action category="ROW_CLICKED"/>
+                </button>
+            </y>
+
+        </row-template>
+    </entityList>
+</border>

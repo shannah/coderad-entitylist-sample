@@ -1,0 +1,19 @@
+#Constants {
+    includeNativeBool: true;
+    defaultFontSizeInt: 18;
+    defaultSourceDPIInt: "0";
+}
+
+StartPageH2 {
+    border-bottom: 1px solid #cccccc;
+}
+
+StartPageLink {
+    font-size: 0.7rem;
+    font-family: "native:MainRegular";
+    color: rgb(80, 129, 209);
+}
+
+StartPageText {
+    font-size: 0.7rem;
+}

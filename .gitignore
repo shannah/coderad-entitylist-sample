@@ -1,0 +1,4 @@
+target
+private
+build
+common/src/main/rad/views/**/*.xsd
